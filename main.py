@@ -5,10 +5,8 @@ aerospike = Aerospike(namespace="test", set_name="school")
 
 aerospike.import_datas()
 
-# aerospike.create(key=3001, bins=bins)
-# aerospike.update_record(key=key, bins=bins)
-# aerospike.delete_record(key=1)
-# record = aerospike.retrieve_one_record(key=key)
+# Comme c'est du clé valeur tu n'auras pas besoin d'autres requête que celle çi
+# Malhereusement comme c'est du clé valeur c'est tu récupère toutes les valeurs et tu les tries avec un script
 records = aerospike.retrieve_all_records()
 
 
