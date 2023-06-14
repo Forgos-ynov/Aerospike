@@ -1,0 +1,7 @@
+- Faire une procédure d'install pour tout ce qui est requis (git, l'IDE, la DB ...)
+- Check le CRUD 
+- Faire les 4 méthodes suivantes:
+	- Ecole avec le plus d'occurences
+	- Le n° de tel qui a le plus d'occurence
+	- Sortir les mails / région
+	- Coreller une table de ville pour vérifier les colonnes aux données tronqués
